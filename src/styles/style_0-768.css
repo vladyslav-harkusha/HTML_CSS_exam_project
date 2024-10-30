@@ -1,0 +1,248 @@
+@media screen and (max-width: 768px) {
+    /*---------- Header ----------*/
+    .developer {
+        display: block;
+        max-width: 768px;
+        padding: 0;
+        margin-bottom: 109px;
+    }
+    .developer__logo {
+        position: static;
+        background-color: #FF7315;
+        padding: 15px 0 14px 0;
+    }
+    .developer__logo span {
+        display: block;
+        width: 333px;
+        margin: 0 auto;
+    }
+    .developer__description {
+        margin: 0 auto;
+        width: 333px;
+    }
+    .developer__greeting {
+        display: block;
+    }
+    .developer__name {
+        font-size: 20px;
+        line-height: 120%;
+        margin-bottom: 25px;
+        max-width: 230px;
+    }
+    .developer__introduction {
+        margin-bottom: 25px;
+    }
+    .developer__social-links {
+        margin-bottom: 48px;
+        justify-content: center;
+    }
+    .developer__buttons {
+        display: flex;
+        justify-content: space-between;
+        gap: 0;
+    }
+    .developer__photo-container {
+        display: none;
+    }
+
+    /*---------- section Summary ----------*/
+    .summary {
+        flex-direction: column-reverse;
+        justify-content: center;
+        text-align: center;
+        height: fit-content;
+        padding: 88px 0 71px 0;
+        margin-bottom: 75px;
+    }
+    .summary__image-container {
+        width: 299px;
+        height: 228px;
+    }
+    .summary__projects-count {
+        font-size: 48px;
+    }
+    .summary__description p:first-of-type {
+        margin-bottom: 68px;
+    }
+    .summary__description p:last-of-type {
+        max-width: 310px;
+        margin-bottom: 68px;
+        text-align: left;
+        font-size: 20px;
+        line-height: 45px;
+        margin-left: 30px;
+
+    }
+    .summary__glad-to-help {
+        font-size: 32px;
+        margin-bottom: 68px;
+    }
+
+    /*---------- section My advantages ----------*/
+    .my-advantages {
+        margin-bottom: 100px;
+    }
+    .my-advantages__title {
+        margin-bottom: 64px;
+        font-size: 32px;
+    }
+    .my-advantages__list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 75px;
+    }
+    .my-advantage:last-child {
+        display: none;
+    }
+
+    /*---------- section Portfolio ----------*/
+    .portfolio {
+        max-width: 333px;
+        margin-bottom: 150px;
+    }
+    .portfolio__title {
+        margin-bottom: 48px;
+        font-size: 32px;
+    }
+    .portfolio__list {
+        grid-template-columns: repeat(2, 161px);
+        grid-template-rows: repeat(2, 157px);
+        gap: 12px;
+    }
+    .portfolio__item:nth-child(1),
+    .portfolio__item:nth-child(4) {
+        display: none;
+    }
+    .portfolio__item:hover {
+        transform: scale(1.1);
+        border: 10px solid rgba(255, 155, 112, 0.7);
+        transition: 1s;
+    }
+
+    /*---------- section Loved by ----------*/
+    .loved-by {
+        margin: 0 auto 100px;
+    }
+    .loved-by__container {
+        padding: 25px 0 24px;
+        max-width: 336px;
+    }
+    .loved-by__title {
+        max-width: 336px;
+        margin: 0 0 21px 0;
+        font-size: 32px;
+        text-align: left;
+    }
+    .loved-by__title span {
+        display: none;
+    }
+    .loved-by__feedbacks {
+        flex-direction: column;
+        gap: 37px;
+    }
+    .loved-by__feedbacks p {
+        width: 100%;
+        font-size: 14px;
+        padding: 50px 36px;
+    }
+
+    /*---------- section Price plans ----------*/
+    .price-plans {
+        margin-bottom: 120px;
+    }
+    .price-plans__title {
+        font-size: 32px;
+    }
+    .price-plans__list{
+        margin-bottom: 130px;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 64px;
+    }
+    .price-plan:first-child {
+        display: none;
+    }
+    .price-plans__email-me {
+        display: flex;
+        flex-direction: column;
+        gap: 58px;
+        padding: 36px 0 66px 0;
+        height: fit-content;
+    }
+    .price-plans__email-me p {
+        width: 307px;
+        font-size: 32px;
+    }
+
+    /*---------- section Blog ----------*/
+    .blog {
+        margin-bottom: 120px;
+    }
+    .blog__title {
+        max-width: 270px;
+        margin: 0 auto 15px;
+        font-size: 32px;
+    }
+    .blog__list {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .blog__list .post:nth-child(1),
+    .blog__list .post:nth-child(2),
+    .blog__list .post:nth-child(4) {
+        display: none;
+    }
+    .post button {
+        display: block;
+    }
+    .post button svg {
+        transition: 0.5s;
+    }
+    .post button svg:hover {
+        transform: scaleX(1.3);
+    }
+
+    /*---------- section Footer ----------*/
+    .footer {
+        height: 302px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer__content-desktop {
+        display: none;
+    }
+    .footer__content-mobile {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer__content-mobile__mailto {
+        color: rgba(34, 34, 34, 0.80);
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 123.6%;
+        display: flex;
+        align-items: center;
+        gap: 23px;
+        margin-bottom: 64px;
+    }
+    .footer__content-mobile__social-links {
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+        margin-bottom: 89px;
+    }
+    .footer__content-mobile__social-links svg:hover {
+        transform: scale(1.4) rotate(360deg);
+        transition: 0.8s;
+    }
+    .footer__content-mobile__copyright {
+        color: #222;
+        font-size: 18px;
+        font-weight: 500;
+    }
+}

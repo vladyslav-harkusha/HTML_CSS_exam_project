@@ -1,0 +1,61 @@
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    /*---------- section Summary ----------*/
+    .summary {
+        flex-direction: column-reverse;
+        height: fit-content;
+        padding: 50px 0;
+    }
+
+    /*---------- section My advantages ----------*/
+    .my-advantages__list {
+        display: grid;
+        grid-template-columns: repeat(2, 240px);
+        grid-template-rows: repeat(2, 300px);
+        gap: 60px;
+        justify-content: center;
+    }
+
+    /*---------- section Portfolio ----------*/
+    .portfolio__title {
+        margin-left: 30px;
+    }
+    .portfolio__list {
+        display: grid;
+        grid-template-columns: repeat(2, 310px);
+        grid-template-rows: repeat(3, 300px);
+        gap: 24px;
+        justify-content: center;
+    }
+    .portfolio__item:hover {
+        transform: scale(1.1);
+        border: 20px solid rgba(255, 155, 112, 0.7);
+        transition: 1s;
+    }
+
+    /*---------- section Loved by ----------*/
+    .loved-by__feedbacks {
+        flex-direction: column;
+        gap: 60px;
+        align-items: center;
+    }
+
+    /*---------- section Price plans ----------*/
+    .price-plans__list{
+        justify-content: space-around;
+    }
+    .price-plan:first-child {
+        display: none;
+    }
+
+    /*---------- section Blog ----------*/
+    .blog__title {
+        margin-left: 30px;
+    }
+    .blog__list {
+        display: grid;
+        grid-template-columns: repeat(2, 270px);
+        grid-template-rows: repeat(2, 364px);
+        gap: 32px;
+        justify-content: center;
+    }
+}
